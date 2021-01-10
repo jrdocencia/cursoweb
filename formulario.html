@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+<title>Formulario de Contacto</title>
+<LINK REL="SHORTCUT ICON" HREF="contacto.gif">
+</head>
+
+   
+<body bgcolor="aqua" >
+
+<img src="costa de oro.png">
+<img src="contacto.gif" width=100 height=50 align="right" >
+
+<FORM ACTION="mailto:jrdocencia@gmail.com" METHOD="POST" ENCTYPE="TEXT/PLAIN">
+
+<form id="contactForm">
+
+                <marquee behavior="alternate">
+				<label for="email"><h1>Rellene este formulario para ponerse en contacto.</h1></label>
+                </marquee>
+		<label for="email">Tu Email:</label>
+		
+		<input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+		<label for="nombre">Tu Nombre:</label>
+		<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+		<label for="asunto">Asunto:</label>
+			<input type="text" id="asunto" name="asunto" placeholder="Ingrese tema a tratar">
+			<br><br><br>
+		<label for="descripcion">Descripción del mensaje:</label><br><br>
+		
+		<textarea name="descripcion" id="descripcion" cols="100" rows="10" placeholder="Le responderemos al email de contacto lo antes posible."></textarea>
+<br><br>
+		
+		<input type="submit" id="enviar" value="Enviar">
+		
+		<div style="clear:both"></div>
+		<div id="respuesta"></div>
+	</form>
+	
+	</body>
+	</html>
